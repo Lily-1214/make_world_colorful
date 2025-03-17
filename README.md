@@ -20,6 +20,14 @@ out = cv2.VideoWriter('recorded_video.avi', fourcc, fps, frame_size)
 
 
 
+## 기본 기능
+
+Space키를 눌러 녹화를 시작합니다.
+Record모드가 활성화되면 화면 좌상단에 빨간 점이 표시됩니다.
+다시 Space키를 눌러 녹화를 종료할 수 있습니다.
+Esc키를 눌러 프로그램을 종료하고, 영상이 자동으로 같은 디렉토리에 저장됩니다.
+
+
 
 ## 필터 기능
 
