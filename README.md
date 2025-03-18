@@ -51,6 +51,8 @@ contrast = 1.0  # 초기 색 대비 값 (1.0 = 기본값)
         grayscale = not grayscale
 ```
 
+<img width="835" alt="Image" src="https://github.com/user-attachments/assets/d92b3b98-bd75-4c0c-8b43-44fe6ed5755d" />
+
 G키를 눌러 흑백 필터를 on/off할 수 있습니다.
 
 ### 색 반전 필터
@@ -65,6 +67,8 @@ G키를 눌러 흑백 필터를 on/off할 수 있습니다.
 
 ```
 
+<img width="835" alt="Image" src="https://github.com/user-attachments/assets/df451adc-bb52-4aec-82cd-54e5ea5804d9" />
+
 I키를 눌러 색 반전 필터를 on/off할 수 있습니다.
 
 ### 색 대비 조절 기능
@@ -77,6 +81,8 @@ I키를 눌러 색 반전 필터를 on/off할 수 있습니다.
     elif key == ord('v') or key == ord('V'):  # 'V' 키 -> 대비 감소
         contrast = max(contrast - 0.1, 0.5)  # 대비 최소 0.5 제한
 ```
+
+<img width="833" alt="Image" src="https://github.com/user-attachments/assets/1eaf4fd7-fc85-45eb-8585-958b664f2e89" />
 
 C, V키를 눌러 각각 대비를 증가, 감소 시킬 수 있습니다.
 
